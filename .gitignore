@@ -1,0 +1,29 @@
+.venv/
+.venv-robotics/
+.venv-robotics312/
+.venv-robotics312-broken-*/
+.physai_robot_model_*/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.streamlit/secrets.toml
+.env
+
+# Additional Python environments and test caches
+.venv*/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
